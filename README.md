@@ -27,6 +27,7 @@ function asyncAvg(n, avgCB) {
 }
 
 To use Promise
+
 function asyncAvg(n) {
     // Save ongoing sum in JS closure.
     var sum = 0, resolve, reject, p = new Promise((res, rej) => {
